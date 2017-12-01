@@ -1,0 +1,45 @@
+{
+  "name": "leaflet-sandbox",
+  "version": "1.0.0",
+  "description": "Testing ground for issues with react-leaflet-universal",
+  "main": "src/server/index.js",
+  "private": true,
+  "scripts": {
+    "start": "babel-node src/server/index.js",
+    "lint": "eslint src/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6",
+    "babel-loader": "^6",
+    "babel-plugin-module-resolver": "^2",
+    "babel-polyfill": "^6",
+    "babel-preset-env": "^1",
+    "babel-preset-react": "^6",
+    "chokidar": "^1",
+    "compression": "^1",
+    "css-loader": "^0.28.7",
+    "express": "^4",
+    "leaflet": "^1.2.0",
+    "leaflet.markercluster": "^1.2.0",
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-leaflet": "^1.7.6",
+    "react-leaflet-markercluster": "^1.1.7",
+    "react-leaflet-universal": "^1.1.2",
+    "require-watch": "^1",
+    "serialize-javascript": "^1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8",
+    "eslint": "^4",
+    "eslint-import-resolver-babel-module": "^3",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-import": "^2"
+  }
+}
